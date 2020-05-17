@@ -1,0 +1,19 @@
+.author__inner {
+    width: 600px;
+    margin-left: 56px;
+}
+
+@media screen and (max-width: 1250px) {
+    .author__inner {
+        width: 60%;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .author__inner {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+}

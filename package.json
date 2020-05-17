@@ -35,12 +35,14 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
     "style-loader": "^1.1.4",
+    "swiper": "^5.3.8",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.4.1"
   }

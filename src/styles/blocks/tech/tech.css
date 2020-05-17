@@ -1,0 +1,11 @@
+@import url(./__heading/tech__heading.css);
+@import url(./__inner/tech__inner.css);
+@import url(./__item/tech__item.css);
+@import url(./__title/tech__title.css);
+@import url(./__technologies/tech__technologies.css);
+@import url(./__pic/tech__pic.css);
+
+.tech {
+    background-color: #F5F6F7;
+}
+

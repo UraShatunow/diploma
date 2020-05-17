@@ -1,0 +1,26 @@
+
+.stats-heading__title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    
+    color: #1A1B22;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 769px) {
+    .stats-heading__title {
+        font-size: 32px;
+        margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .stats-heading__title {
+        font-size: 30px;
+        line-height: 34px;  
+        margin-top: 0px;
+    }
+}

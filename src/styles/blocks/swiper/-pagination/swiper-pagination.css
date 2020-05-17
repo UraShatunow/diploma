@@ -1,0 +1,11 @@
+
+.swiper-pagination {
+    --swiper-theme-color: #1A1B22;
+}
+
+@media screen and (max-width: 767px) {
+    .swiper-pagination {
+        margin-bottom: 60px;
+    }
+  }
+

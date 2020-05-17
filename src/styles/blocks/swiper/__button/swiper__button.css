@@ -1,0 +1,19 @@
+
+.swiper__button {
+  position: absolute;
+  width: 40px !important;
+  height: 40px !important;
+  background: #1A1B22;
+  box-shadow: 0px 3px 10px rgba(14, 26, 57, 0.2);
+  border: none;
+  border-radius: 100px;
+  outline: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .swiper__button {
+      display: none !important;
+  }
+}
+
+

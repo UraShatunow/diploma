@@ -1,0 +1,32 @@
+
+.swiper__button-git {
+  display: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1A1B22;
+  padding: 15px 70px;
+  border: 1px solid #1A1B22;
+  border-radius: 80px;
+  background: none;
+  transition: 0.15s;
+  outline: none;
+  margin-top: 50px;
+  
+}
+
+.swiper__button-git:hover {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .swiper__button-git {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+

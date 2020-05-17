@@ -1,0 +1,39 @@
+
+.swiper-container {
+    width: 100%;
+    position: relative;
+}
+
+.swiper-container:before {
+    display: block;
+    content: "";
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    background: linear-gradient(90deg, rgba(245,246,247,1) 0%, rgba(245,246,247,0) 100%);
+}
+
+.swiper-container:after {
+    display: block;
+    content: "";
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    background: linear-gradient(90deg, rgba(245,246,247,0) 0%, rgba(245,246,247,1) 100%);
+}
+
+@media screen and (max-width: 1199px) {
+    .swiper-container:before {
+        display: none;
+    }
+
+    .swiper-container:after {
+        display: none;
+    }
+}
+

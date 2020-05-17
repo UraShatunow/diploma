@@ -1,0 +1,23 @@
+@import url(./__title/clients__title.css);
+@import url(./__paragraph/clients__paragraph.css);
+
+.clients {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 100px;
+  color: #1A1B22;
+}
+
+@media screen and (max-width: 769px) {
+  .clients {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .clients {
+    padding: 16px;
+    padding-bottom: 25px;
+  }
+}
+

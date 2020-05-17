@@ -1,0 +1,12 @@
+
+.table__heading {
+    display: flex;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 569px) {
+    .table__heading {
+        margin-top: 16px;
+    }
+}
+

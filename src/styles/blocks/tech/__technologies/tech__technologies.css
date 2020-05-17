@@ -1,0 +1,26 @@
+
+.tech__technologies {
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    .tech__technologies {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .tech__technologies {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tech__technologies {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+}
+

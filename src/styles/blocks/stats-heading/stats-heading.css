@@ -1,0 +1,24 @@
+@import url(./__nav/stats-heading__nav.css);
+@import url(./__nav-item/stats-heading__nav-item.css); 
+@import url(./__paragraph/stats-heading__paragraph.css); 
+@import url(./__span-accent/stats-heading__span-accent.css); 
+@import url(./__title/stats-heading__title.css); 
+
+.stats-heading {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 100px 80px;
+}
+
+@media screen and (max-width: 769px) {
+    .stats-heading {
+        padding: 32px 40px 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stats-heading {
+        padding: 16px;
+    }
+}
+

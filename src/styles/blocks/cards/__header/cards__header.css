@@ -1,0 +1,19 @@
+
+.cards__header {
+    width: 1232px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .cards__header {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .cards__header {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,36 @@
+.intro__input {
+    padding: 20px 200px 20px 25px;
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid #D1D2D6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    color: #1A1B22;
+}
+
+.intro__input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #B6BCBF;
+}
+
+.intro__input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 769px) {
+    .intro__input {
+        padding: 17px 180px 17px 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__input {
+        padding: 17px 25px;
+    }
+}

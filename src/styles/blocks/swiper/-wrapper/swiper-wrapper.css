@@ -1,0 +1,22 @@
+
+.swiper-wrapper {
+    position: relative;
+    display: flex;
+    margin: 60px auto;
+}
+
+@media screen and (max-width: 1025px) {
+    .swiper-wrapper {
+        margin: 32px auto 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .swiper-wrapper {
+        margin: 16px 0;
+    }
+}
+
+
+
+

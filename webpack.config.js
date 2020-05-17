@@ -7,7 +7,7 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
-  entry: { main: './src/index.js' },
+  entry: { main: './src/js/index.js' },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[chunkhash].js'
@@ -17,7 +17,7 @@ module.exports = {
       {
         test: /\.(png|jpg|gif|ico|svg)$/,
         use: [
-            'file-loader?name=./dist/images/[name].[ext]', // указали папку, куда складывать изображения
+            'file-loader?name=./img/[name].[ext]', // указали папку, куда складывать изображения
             {
                 loader: 'image-webpack-loader',
                 options: {}
@@ -60,6 +60,16 @@ module.exports = {
       inject: false,
       template: './src/index.html',
       filename: 'index.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/about.html',
+      filename: 'about.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/stats.html',
+      filename: 'stats.html'
     }),
     new WebpackMd5Hash()
   ]

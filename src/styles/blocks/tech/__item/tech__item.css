@@ -1,0 +1,26 @@
+
+.tech__item {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 37px;
+}
+
+.tech__item:first-child {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .tech__item {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tech__item {
+        width: 50%;
+        margin-top: 40px;
+    }
+}
