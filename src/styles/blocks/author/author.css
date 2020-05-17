@@ -1,0 +1,32 @@
+@import url(./__inner/author__inner.css);
+@import url(./__paragraph/author__paragraph.css);
+@import url(./__pic/author__pic.css);
+@import url(./__title/author__title.css);
+
+.author {
+    color: #1A1B22;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .author {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .author {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .author {
+        flex-wrap: wrap;
+        padding: 16px 0;
+    }
+}

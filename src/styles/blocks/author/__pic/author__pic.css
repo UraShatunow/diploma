@@ -1,0 +1,40 @@
+.author__pic {
+    width: 464px;
+    height: 464px;
+    border-radius: 1000px;
+}
+
+@media screen and (max-width: 1250px) {
+    .author__pic {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .author__pic {
+        width: 232px;
+        height: 232px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .author__pic {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .author__pic {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .author__pic {
+        width: 272px;
+        height: 272px;
+    }
+}

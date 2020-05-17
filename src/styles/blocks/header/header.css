@@ -1,0 +1,25 @@
+@import url(./__title/header__title.css);
+@import url(./_dark/header_dark.css);
+
+.header {
+    position: relative;
+    height: 80px;
+    padding: 0 100px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1250px) {
+    .header {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 0 16px;
+        height: 56px;
+    }
+}

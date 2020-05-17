@@ -1,0 +1,10 @@
+.intro__search {
+    margin-top: 80px;
+    position: relative;
+}
+
+@media screen and (max-width: 769px) {
+    .intro__search {
+        margin-top: 24px;
+    }
+}

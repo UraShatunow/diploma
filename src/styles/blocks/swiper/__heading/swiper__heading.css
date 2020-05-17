@@ -1,0 +1,27 @@
+
+.swiper__heading {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+    .swiper__heading {
+        width: 100%;
+        padding: 0 104px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .swiper__heading {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .swiper__heading {
+        padding: 0 16px;
+    }
+}

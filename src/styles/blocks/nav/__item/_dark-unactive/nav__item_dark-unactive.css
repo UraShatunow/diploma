@@ -1,0 +1,8 @@
+.nav__item.nav__item_dark.nav__item_dark-unactive {
+    color: #B6BCBF;
+}
+
+.nav__item.nav__item_dark.nav__item_dark-unactive:after {
+    display: none;
+}
+

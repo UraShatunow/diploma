@@ -1,0 +1,27 @@
+
+.table__heading-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    /* simulator/gray/text */
+
+    color: #B6BCBF;
+}
+
+.table__heading-item:first-child {
+    width: 104px;
+}
+
+@media screen and (max-width: 569px) {
+    .table__heading-item:first-child {
+        width: 80px;
+    }
+}
+

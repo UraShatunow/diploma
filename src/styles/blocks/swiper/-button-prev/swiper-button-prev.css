@@ -1,0 +1,18 @@
+
+.swiper-button-prev {
+    background-image: url('../../../../img/swiper__arrow-left.svg');
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+    position: absolute;
+    left: 30px !important;
+    top: 50% !important;
+    transform: translate(0, 50%);
+}
+
+.swiper-button-prev:after {
+    display: none;
+}
+
+
+
+

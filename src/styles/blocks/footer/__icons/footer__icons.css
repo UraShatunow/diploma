@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+    .footer__icons {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        order: 2;
+    }
+}

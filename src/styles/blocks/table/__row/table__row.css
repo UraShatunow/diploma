@@ -1,0 +1,16 @@
+
+.table__row {
+    display: flex;
+    margin-bottom: 56px;
+}
+
+.table__row:last-child {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 569px) {
+    .table__row {
+        margin-bottom: 24px;
+    }
+}
+

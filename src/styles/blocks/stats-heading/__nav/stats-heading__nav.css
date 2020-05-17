@@ -1,0 +1,11 @@
+
+.stats-heading__nav {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 569px) {
+    .stats-heading__nav {
+        display: none;
+    }
+}

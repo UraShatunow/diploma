@@ -1,0 +1,28 @@
+
+.tech__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tech__inner {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .tech__inner {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .tech__inner {
+        padding: 16px;
+    }
+}

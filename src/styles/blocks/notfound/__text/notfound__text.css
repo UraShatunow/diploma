@@ -1,0 +1,18 @@
+
+.notfound__text {
+    font-family: 'Roboto';
+    width: 350px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 16px;
+
+    color: #B6BCBF;
+}
+
+@media screen and (max-width: 376px) {
+    .notfound__text {
+        width: 90%;
+    }
+}

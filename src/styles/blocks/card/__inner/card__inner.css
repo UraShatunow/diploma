@@ -1,0 +1,12 @@
+
+.card__inner {
+    padding: 20px;
+    position: relative;
+}
+
+@media screen and (max-width: 769px) {
+    .card__inner {
+        padding: 16px;
+        height: 60%;
+    }
+}

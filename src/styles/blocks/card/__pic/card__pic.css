@@ -1,0 +1,15 @@
+
+.card__pic {
+    height: 50%;
+    background-image: url('../../../../img/card__bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 769px) {
+    .card__pic {
+        height: 40%;
+    }
+}
+

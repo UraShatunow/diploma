@@ -1,0 +1,27 @@
+@import url(./__inner/intro__inner.css);
+@import url(./__input/intro__input.css);
+@import url(./__search/intro__search.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+@import url(./__button/intro__button.css);
+
+.intro {
+    color: #fff;
+    background-image: url('../../../img/intro__bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1025px) {
+    .intro {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        padding-bottom: 30px;
+    }
+}

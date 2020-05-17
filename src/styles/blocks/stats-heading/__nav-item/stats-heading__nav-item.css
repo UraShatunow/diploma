@@ -1,0 +1,15 @@
+@import url(./_active/stats-heading__nav-item_active.css); 
+
+.stats-heading__nav-item {
+    color: #8D8D91;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.stats-heading__nav-item:first-child {
+    margin-left: 0px;
+}

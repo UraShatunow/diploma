@@ -1,0 +1,19 @@
+
+.table__blue {
+    width: 15%;
+    background: #2F71E5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    /* or 133% */
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    /* main/white */
+
+    color: #FFFFFF;
+    padding: 6px;
+}
+

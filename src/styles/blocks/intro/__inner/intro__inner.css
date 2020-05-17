@@ -1,0 +1,16 @@
+.intro__inner {
+    width: 600px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1025px) {
+    .intro__inner {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__inner {
+        width: 90%;
+    }
+}

@@ -1,0 +1,21 @@
+@import url(./__analytics/cards__analytics.css);
+@import url(./__title/cards__title.css);
+@import url(./__button/cards__button.css);
+@import url(./__header/cards__header.css);
+@import url(./__inner/cards__inner.css);
+@import url(./__arrow/cards__arrow.css);
+
+.cards {
+    background-color: #F5F6F7;
+    padding: 80px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1025px) {
+    .cards {
+        padding: 40px 0;
+    }
+}

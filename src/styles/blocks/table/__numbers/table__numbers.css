@@ -1,0 +1,27 @@
+
+.table__numbers {
+    margin-left: 104px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    color: #B6BCBF;
+    margin-bottom: 16px;
+}
+
+.table__numbers:last-child {
+    margin-bottom: 0px;
+    margin-top: -40px;
+}
+
+@media screen and (max-width: 569px) {
+    .table__numbers {
+        display: none;
+    }
+}

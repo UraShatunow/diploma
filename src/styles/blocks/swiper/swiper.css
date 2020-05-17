@@ -1,0 +1,41 @@
+@import url(./__arrow/swiper__arrow.css);
+@import url(./__heading/swiper__heading.css);
+@import url(./__open/swiper__open.css);
+@import url(./__title/swiper__title.css);
+@import url(./__data/swiper__data.css);
+@import url(./__author/swiper__author.css);
+@import url(./__avatar/swiper__avatar.css);
+@import url(./__info/swiper__info.css);
+@import url(./__name/swiper__name.css);
+@import url(./__text/swiper__text.css);
+@import url(./__email/swiper__email.css);
+@import url(./__button/swiper__button.css);
+@import url(./__button-git/swiper__button-git.css);
+@import url(./-container/swiper-container.css);
+@import url(./-slide/swiper-slide.css);
+@import url(./-wrapper/swiper-wrapper.css);
+@import url(./-pagination/swiper-pagination.css);
+@import url(./-button-prev/swiper-button-prev.css);
+@import url(./-button-next/swiper-button-next.css);
+@import url(./-prev-icon/swiper-prev-icon.css);
+
+.swiper {
+    background-color: #F5F6F7;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .swiper {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .swiper {
+        padding: 16px 0 32px;
+    }
+}
+

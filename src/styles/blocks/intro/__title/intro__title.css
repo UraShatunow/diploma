@@ -1,0 +1,30 @@
+.intro__title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1025px) {
+    .intro__title {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .intro__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+

@@ -1,0 +1,25 @@
+
+.tech__title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    width: 344px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tech__title {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .tech__title {
+        font-size: 30px;
+        line-height: 40px;
+        width: 60%;
+    }
+}
+
+
