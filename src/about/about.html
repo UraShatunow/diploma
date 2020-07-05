@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewsAnalyzer</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css%>">
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader__circle"></div>
+    </div>
+
+    <div class="root">
+
+        <header class="header header_dark">
+            <h3 class="header__title">NewsAnalyzer</h3>
+            <nav class="nav">
+                <a href="./index.html" class="nav__item nav__item_dark">Главная</a>
+                <a href="./about.html" class="nav__item nav__item_dark">О Проекте</a>
+            </nav>
+        </header>
+
+        <div class="clients root__section">
+            <h2 class="clients__title">Клиентам</h2>
+            <p class="clients__paragraph">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему научился студент, какими технологиями владеет.</p>
+            <p class="clients__paragraph">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+            <p class="clients__paragraph">Карточки с новостями приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
+            <p class="clients__paragraph">При создании проекта была использована сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. А значит, потенциальная аудитория возрастает.</p>
+            <p class="clients__paragraph">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
+        </div>
+
+        <div class="tech root__section">
+            <div class="tech__inner">
+                <h2 class="tech__title">Используемые технологии</h2>
+                <div class="tech__technologies">
+                    <div class="tech__item">
+                        <h4 class="tech__heading">HTML</h4>
+                        <img src="<%=require('../img/tech__html.svg').default%>" alt="html" class="tech__pic">
+                    </div>
+                    <div class="tech__item">
+                        <h4 class="tech__heading">CSS</h4>
+                        <img src="<%=require('../img/tech__css.svg').default%>" alt="css" class="tech__pic">
+                    </div>
+                    <div class="tech__item">
+                        <h4 class="tech__heading">Java Script</h4>
+                        <img src="<%=require('../img/tech__js.svg').default%>" alt="Java Script" class="tech__pic">
+                    </div>
+                    <div class="tech__item">
+                        <h4 class="tech__heading">Webpack</h4>
+                        <img src="<%=require('../img/tech__webpack.svg').default%>" alt="Webpack" class="tech__pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="author root__section">
+            <img src="<%=require('../img/author__pic.jpg').default%>" alt="avatar picture" class="author__pic">
+            <div class="author__inner">
+                <h2 class="author__title">Об авторе</h2>
+                <p class="author__paragraph">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+                <p class="author__paragraph">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email и телефон. Так заказчики смогут с вами связаться.</p>
+            </div>
+        </div>
+
+        <div class="swiper root__section">
+            <div class="swiper-container">
+                <div class="swiper__heading">
+                    <h2 class="swiper__title">История коммитов из GitHub</h2>
+                    <a href="https://github.com/UraShatunow/diploma/commits/master" class="swiper__open" target="_blank">Открыть в  Github<img src="<%=require('../img/cards__arrow.svg').default%>" alt="arrow" class="swiper__arrow"></a>
+                </div>
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+                <button class="swiper__button swiper-button-prev"></button>
+                <button class="swiper__button swiper-button-next"></button>
+                <button class="swiper__button-git">Открыть в GitHub</button>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p class="footer__rights">© 2019  Supersite</p>
+            <nav class="footer__nav">
+                <a href="./index.html" class="footer__nav-item">Главная</a>
+                <a href="./about.html" class="footer__nav-item">О проекте</a>
+                <a href="https://praktikum.yandex.ru/profile/frontend-developer/" class="footer__nav-item">Яндекс.Практикум</a>
+            </nav>
+            <div class="footer__icons">
+                <a href="https://github.com/UraShatunow" class="footer__icon" target="_blank"><img src="<%=require('../img/github__icon.svg').default%>" alt="github icon" class="footer__icon"></a>
+                <a href="https://vk.com/ura_shatunow" class="footer__icon" target="_blank"><img src="<%=require('../img/facebook__icon.svg').default%>" alt="facebook icon" class="footer__icon"></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="<%=htmlWebpackPlugin.files.chunks.about.entry%>"></script>
+
+</body>
+</html>

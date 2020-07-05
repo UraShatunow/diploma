@@ -1,0 +1,17 @@
+@import url(./__circle/preloader__circle.css);
+
+.preloader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+	background-color: #333;
+	transition: 0.15s;
+	z-index: 1001;
+}

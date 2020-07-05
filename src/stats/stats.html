@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsAnalyzer</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.stats.css%>">
 </head>
 
 <body>
+
+    <div class="preloader">
+        <div class="preloader__circle"></div>
+    </div>
+
     <div class="root">
 
         <header class="header header_dark">
@@ -25,9 +30,9 @@
                 <p class="stats-heading__nav-item">/</p>
                 <p class="stats-heading__nav-item">Аналитика</p>
             </nav>
-            <h2 class="stats-heading__title">Вы спросили: «Путешествия»</h2>
-            <p class="stats-heading__paragraph">Новостей за неделю: <span class="stats-heading__span-accent">34324</span></p>
-            <p class="stats-heading__paragraph">Упоминаний в заголовках: <span class="stats-heading__span-accent">235</span></p>
+            <h2 class="stats-heading__title">Вы спросили: «<span class="stats-heading__title_span-accent"></span>»</h2>
+            <p class="stats-heading__paragraph">Новостей за неделю: <span class="stats-heading__span-accent stats-heading__span-accent_news"></span></p>
+            <p class="stats-heading__paragraph">Упоминаний в заголовках: <span class="stats-heading__span-accent stats-heading__span-accent_titles"></span></p>
         </div>
 
         <div class="table root__section">
@@ -46,32 +51,32 @@
                     <p class="table__number">100</p>
                 </div>
                 <div class="table__row">
-                    <p class="table__data">19, пн</p>
-                    <div class="table__blue">15</div>
+                    <p class="table__data table__data_1"></p>
+                    <div class="table__blue table__blue_1">15</div>
                 </div>
                 <div class="table__row">
-                    <p class="table__data">19, пн</p>
-                    <div class="table__blue">15</div>
+                    <p class="table__data table__data_2"></p>
+                    <div class="table__blue table__blue_2">15</div>
                 </div>
                 <div class="table__row">
-                    <p class="table__data">19, пн</p>
-                    <div class="table__blue">15</div>
+                    <p class="table__data table__data_3"></p>
+                    <div class="table__blue table__blue_3">15</div>
                 </div>
                 <div class="table__row">
-                    <p class="table__data">19, пн</p>
-                    <div class="table__blue">15</div>
+                    <p class="table__data table__data_4"></p>
+                    <div class="table__blue table__blue_4">15</div>
                 </div>
                 <div class="table__row">
-                    <p class="table__data">19, пн</p>
-                    <div class="table__blue">15</div>
+                    <p class="table__data table__data_5"></p>
+                    <div class="table__blue table__blue_5">15</div>
                 </div>
                 <div class="table__row">
-                    <p class="table__data">19, пн</p>
-                    <div class="table__blue">15</div>
+                    <p class="table__data table__data_6"></p>
+                    <div class="table__blue table__blue_6">15</div>
                 </div>
                 <div class="table__row">
-                    <p class="table__data">19, пн</p>
-                    <div class="table__blue">15</div>
+                    <p class="table__data table__data_7"></p>
+                    <div class="table__blue table__blue_7">15</div>
                 </div>
                 <div class="table__numbers">
                     <p class="table__number">0</p>
@@ -91,12 +96,12 @@
                 <a href="https://praktikum.yandex.ru/profile/frontend-developer/" class="footer__nav-item">Яндекс.Практикум</a>
             </nav>
             <div class="footer__icons">
-                <a href="https://github.com/UraShatunow" class="footer__icon" target="_blank"><img src="<%=require('./img/github__icon.svg').default%>" alt="github icon" class="footer__icon"></a>
-                <a href="https://vk.com/ura_shatunow" class="footer__icon" target="_blank"><img src="<%=require('./img/facebook__icon.svg').default%>" alt="facebook icon" class="footer__icon"></a>
+                <a href="https://github.com/UraShatunow" class="footer__icon" target="_blank"><img src="<%=require('../img/github__icon.svg').default%>" alt="github icon" class="footer__icon"></a>
+                <a href="https://vk.com/ura_shatunow" class="footer__icon" target="_blank"><img src="<%=require('../img/facebook__icon.svg').default%>" alt="facebook icon" class="footer__icon"></a>
             </div>
         </footer>
 
-        <script src="<%=htmlWebpackPlugin.files.chunks.main.entry%>"></script>
+        <script src="<%=htmlWebpackPlugin.files.chunks.stats.entry%>"></script>
 
     </div>
 </body>
