@@ -1,0 +1,3 @@
+.intro__input.intro__input_empty::placeholder {
+    color: red;
+}
