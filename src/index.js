@@ -22,7 +22,7 @@ const newFromDate = new GetDate();
 const fullFromDate = newFromDate.getFromDate();
 
 const newsApi = new NewsApi({
-    baseUrl: 'https://praktikum.tk/news/v2/',
+    baseUrl: 'https://nomoreparties.co/news/v2/',
     headers: {
         KEY: '47c530c3ee604c6da90a153e019432c6'
         }
